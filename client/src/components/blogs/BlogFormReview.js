@@ -14,7 +14,9 @@ class BlogFormReview extends Component {
       return (
         <div key={name}>
           <label>{label}</label>
-          <div>{formValues[name]}</div>
+          <div style={{ wordWrap: "break-word", whiteSpace: "normal" }}>
+            {formValues[name]}
+          </div>
         </div>
       );
     });

@@ -15,7 +15,13 @@ class BlogShow extends Component {
     const { title, content } = this.props.blog;
 
     return (
-      <div>
+      <div
+        style={{
+          background: "white",
+          wordWrap: "break-word",
+          whiteSpace: "normal",
+        }}
+      >
         <h3>{title}</h3>
         <p>{content}</p>
       </div>

@@ -18,7 +18,11 @@ class App extends Component {
     return (
       <div>
         <BrowserRouter>
-          <div style={{ height: "100vh" }}>
+          <div
+            style={{
+              height: "100vh",
+            }}
+          >
             <Header />
             <Switch>
               <Route path="/blogs/new" component={BlogNew} />
