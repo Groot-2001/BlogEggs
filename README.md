@@ -27,7 +27,9 @@
     `redis-cli`
     `127.0.0.1:6379> ping`
     `PONG`
+### High-Level Design 
 
+-![alt text](https://github.com/Groot-2001/BlogEggs/blob/main/images/BloggEgg(High-level%20Design).png)
 
 ### Installation
 
