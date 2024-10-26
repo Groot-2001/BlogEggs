@@ -1,4 +1,4 @@
-### Setup
+### Initial Setup
 
 - create dev.js file inside your config folder and add following properties.
 
